@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+.main-brand {
+  font-size: 60px;
+  font-family: "snell";
+  font-weight: normal;
+  text-align: center;
+}
+
+.main-title-quarter {
+  font-size: 33px;
+  font-weight: normal;
+  font-style: italic;
+  text-align: center;
+}
+
+.section-row-one {
+  display: flex;
+  width: 100%;
+  border: 1px solid black;
+  align-items: stretch;
+}
+
+.story-quarter, .story-half {
+    border: 1px solid black;
+    padding: 0 10px;
+}
+
+
+.story-quarter {
+    width: 25%;
+}
+
+.story-half {
+    width: 50%;
+}
+
+.main-image {
+    width: 100%;
+    border-radius: 32%;
+}
+
+.story-quarter-row-two {
+    width: 25%;
+    padding: 0 10px;
+}
+
+.story-threequarter-row-two {
+    width: 75%;
+}
+
+.story-quarter-row-two, .story-threequarter-row-two {
+    border: 1px solid black;
+}
+
+
+
+.list-threequarter {
+    list-style: none;
+    font-size: 30px;
+    flex-direction: column;
+    align-items: stretch;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.section-row-two {
+    display: flex;
+    align-items: stretch;
+    
+}
+
+.threequarter-items {
+    color: rgb(90, 90, 90);
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+.threequarter-space {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding: 25px;
+}
+
+.space-one {
+    background-color: #FFEAA7;
+}
+
+.space-two {
+    background-color: #81ECEC;
+}
+
+.space-three {
+    background-color: #55EFC4;
+}
+
+.space-four {
+    background-color: #74B9FF;
+}
+
+.space-five {
+    background-color: #A29BFE;
+}
+
+
+
+
+
